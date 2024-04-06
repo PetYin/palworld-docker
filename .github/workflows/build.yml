@@ -4,6 +4,9 @@ on:
   push:
     tags:
       - "*"
+  workflow_dispatch:
+    # No inputs - this is a manual trigger
+    inputs: {}
 
 jobs:
   docker:
