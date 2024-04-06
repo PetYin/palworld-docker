@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   dedicated-server:
-    image: kagurazakanyaa/palworld:latest
+    image: yin07/palworld:latest
     # build: # only use in test
     #   context: .
     restart: unless-stopped
